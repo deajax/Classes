@@ -1,6 +1,36 @@
+/* Display */
+
+.display_none { display: none }
+.display_block { display: block }
+.display_inline { display: inline }
+.display_inline_block { display: inline-block }
+.display_flex { display: flex }
+.display_inline_flex { display: inline-flex }
+.display_table { display: table }
+.display_inline_table { display: inline-table }
+.display_table_caption { display: table-caption }
+.display_table_cell { display: table-cell }
+.display_table_column { display: table-column }
+.display_table_column_group { display: table-column-group }
+.display_table_footer_group { display: table-footer-group }
+.display_table_header_group { display: table-header-group }
+.display_table_row { display: table-row }
+.display_table_row_group { display: table-row-group }
+.display_grid { display: grid }
+.display_list_item { display: list-item }
+.display_inherit { display: inherit }
+
+/* Overflow */
+
+.overflow_hidden { overflow: hidden  }
+.overflow_x_hidden { overflow-x: hidden  }
+.overflow_y_hidden { overflow-y: hidden  }
+.overflow_visible { overflow: visible  }
+.overflow_scroll { overflow: scroll  }
+.overflow_auto { overflow: auto }
+
 /* Interval */
 
-/* Margin */
 .m_a { margin: auto }
 .m_0 { margin: 0 }
 .m_2 { margin: 2px }
@@ -17,7 +47,6 @@
 .m_72 { margin: 72px }
 .m_80 { margin: 80px }
 
-/* Margin Top */
 .mt_a { margin-top: auto }
 .mt_0 { margin-top: 0 }
 .mt_2 { margin-top: 2px }
@@ -34,7 +63,6 @@
 .mt_72 { margin-top: 72px }
 .mt_80 { margin-top: 80px }
 
-/* Margin Right */
 .mr_a { margin-right: auto }
 .mr_0 { margin-right: 0 }
 .mr_2 { margin-right: 2px }
@@ -51,7 +79,6 @@
 .mr_72 { margin-right: 72px }
 .mr_80 { margin-right: 80px }
 
-/* Margin Bottom */
 .mb_a { margin-bottom: auto }
 .mb_0 { margin-bottom: 0 }
 .mb_2 { margin-bottom: 2px }
@@ -68,7 +95,6 @@
 .mb_72 { margin-bottom: 72px }
 .mb_80 { margin-bottom: 80px }
 
-/* Margin Left */
 .ml_a { margin-left: auto }
 .ml_0 { margin-left: 0 }
 .ml_2 { margin-left: 2px }
@@ -85,7 +111,6 @@
 .ml_72 { margin-left: 72px }
 .ml_80 { margin-left: 80px }
 
-/* Margin X */
 .mx_a { margin-left: auto; margin-right: auto }
 .mx_0 { margin-left: 0; margin-right: 0 }
 .mx_2 { margin-left: 2px; margin-right: 2px }
@@ -102,7 +127,6 @@
 .mx_72 { margin-left: 72px; margin-right: 72px }
 .mx_80 { margin-left: 80px; margin-right: 80px }
 
-/* Margin Y */
 .my_a { margin-top: auto; margin-bottom: auto }
 .my_0 { margin-top: 0; margin-bottom: 0 }
 .my_2 { margin-top: 2px; margin-bottom: 2px }
@@ -119,7 +143,6 @@
 .my_72 { margin-top: 72px; margin-bottom: 72px }
 .my_80 { margin-top: 80px; margin-bottom: 80px }
 
-/* Padding */
 .p_0 { padding: 0 }
 .p_2 { padding: 2px }
 .p_4 { padding: 4px }
@@ -135,7 +158,6 @@
 .p_72 { padding: 72px }
 .p_80 { padding: 80px }
 
-/* Padding Top */
 .pt_0 { padding-top: 0 }
 .pt_2 { padding-top: 2px }
 .pt_4 { padding-top: 4px }
@@ -151,7 +173,6 @@
 .pt_72 { padding-top: 72px }
 .pt_80 { padding-top: 80px }
 
-/* Padding Right */
 .pr_0 { padding-right: 0 }
 .pr_2 { padding-right: 2px }
 .pr_4 { padding-right: 4px }
@@ -167,7 +188,6 @@
 .pr_72 { padding-right: 72px }
 .pr_80 { padding-right: 80px }
 
-/* Padding Bottom */
 .pb_0 { padding-bottom: 0 }
 .pb_2 { padding-bottom: 2px }
 .pb_4 { padding-bottom: 4px }
@@ -183,7 +203,6 @@
 .pb_72 { padding-bottom: 72px }
 .pb_80 { padding-bottom: 80px }
 
-/* Padding Left */
 .pl_0 { padding-left: 0 }
 .pl_2 { padding-left: 2px }
 .pl_4 { padding-left: 4px }
@@ -199,7 +218,6 @@
 .pl_72 { padding-left: 72px }
 .pl_80 { padding-left: 80px }
 
-/* Padding X */
 .px_0 { padding-left: 0; padding-right: 0 }
 .px_2 { padding-left: 2px; padding-right: 2px }
 .px_4 { padding-left: 4px; padding-right: 4px }
@@ -215,7 +233,6 @@
 .px_72 { padding-left: 72px; padding-right: 72px }
 .px_80 { padding-left: 80px; padding-right: 80px }
 
-/* Padding Y */
 .py_0 { padding-top: 0; padding-bottom: 0 }
 .py_2 { padding-top: 2px; padding-bottom: 2px }
 .py_4 { padding-top: 4px; padding-bottom: 4px }
@@ -230,3 +247,4 @@
 .py_64 { padding-top: 64px; padding-bottom: 64px }
 .py_72 { padding-top: 72px; padding-bottom: 72px }
 .py_80 { padding-top: 80px; padding-bottom: 80px }
+
